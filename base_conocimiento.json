@@ -1,0 +1,79 @@
+{
+  "regex_chatbot": [
+    {
+      "categoria": "saludo",
+      "pattern": ".*\\b(hola|buen[oa]s?|que tal|salud).*",
+      "respuesta": "¡Hola! ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "categoria": "despedida",
+      "pattern": ".*\\b(adios|graci|nos vemos|hasta luego|bye).*",
+      "respuesta": "¡Gracias por usar el chatbot! Que tengas un buen día."
+    },
+    {
+      "categoria": "inscripciones semestre",
+      "pattern": ".*\\b(inscrip|inscrib|registro|ficha).*(semestr|otono|agost|2025).*",
+      "respuesta": "Las inscripciones para otoño 2025 son del 2 al 18 de junio de 2025, revisa tu plataforma de self service en la sección finanzas para obtener tu ficha de pago."
+    },
+    {
+      "categoria": "ficha de pago",
+      "pattern": ".*\\b(ficha|pago|obten|como pag|realiz).*(self|finanz).*",
+      "respuesta": "Revisa tu plataforma de self service en la sección finanzas para obtener tu ficha de pago."
+    },
+    {
+      "categoria": "cursos verano pago",
+      "pattern": ".*\\b(pag|inscrib|pagos?).*(curso|veran).*",
+      "respuesta": "Revisa tu plataforma de self service en la sección finanzas para obtener tu ficha de pago."
+    },
+    {
+      "categoria": "cursos verano fechas",
+      "pattern": ".*\\b(cuand|fech|inicio|empiez).*(curso|veran|jul).*",
+      "respuesta": "Los cursos de verano 2025 son del 16 de junio al 11 de julio de 2025, recuerda inscribirlos el día 7 de junio."
+    },
+    {
+      "categoria": "direccion universidad",
+      "pattern": ".*\\b(direc|ubic|dond|localiz).*\\b(uni|upslp).*",
+      "respuesta": "La dirección es Urbano Villalón num.500, Col. La Ladrillera, SLP. https://maps.app.goo.gl/oDFqcNDDbeybU5Wy5"
+    },
+    {
+      "categoria": "contacto universidad",
+      "pattern": ".*\\b(telefon|numer|correo|email|contact).*\\b(uni|upslp).*",
+      "respuesta": "(444) 870 - 21 - 00\npolitecnica@upslp.edu.mx\nservicios_escolares@upslp.edu.mx"
+    },
+    {
+      "categoria": "dias festivos",
+      "pattern": ".*\\b(festiv|no clas|descans|feriad).*",
+      "respuesta": "Algunos días festivos de los semestres otoño 2024 y primavera 2025 son: 16 de septiembre, 2 y 18 de noviembre, 25 de diciembre, 1 de enero, 5 de febrero, 21 de marzo y 1 de mayo."
+    },
+    {
+      "categoria": "rector universidad",
+      "pattern": ".*\\b(rector|director|quien manda|quien es el jefe).*",
+      "respuesta": "El rector de la UPSLP es Néstor Eduardo Garza."
+    },
+    {
+      "categoria": "fundacion universidad",
+      "pattern": ".*\\b(fund|creo|inici|empez).*(uni|upslp).*",
+      "respuesta": "La UPSLP fue fundada el 3 de septiembre de 2001."
+    },
+    {
+      "categoria": "oferta academica",
+      "pattern": ".*\\b(carrer|ofert|que se pued|estudi).*",
+      "respuesta": "Consulta las carreras ofrecidas en: https://www.upslp.edu.mx/upslp/?page_id=2692"
+    },
+    {
+      "categoria": "admision",
+      "pattern": ".*\\b(admision|entrar|ingres|proceso).*\\b(uni|upslp).*",
+      "respuesta": "La información sobre el proceso de ingreso está en: https://www.upslp.edu.mx/upslp/?page_id=16828"
+    },
+    {
+      "categoria": "calendario escolar",
+      "pattern": ".*\\b(calendari|fech important|period|clases).*",
+      "respuesta": "Consulta el calendario escolar vigente en: https://www.upslp.edu.mx/upslp/wp-content/uploads/2025/05/Calendario-Escolar-Semestral-2024-2025-UPSLP-.pdf"
+    },
+    {
+      "categoria": "ayuda general",
+      "pattern": ".*\\b(ayuda|no entiend|necesit).*",
+      "respuesta": "Puedes preguntarme sobre fechas importantes, inscripciones, contactos o procesos escolares. ¿Qué necesitas saber?"
+    }
+  ]
+}
